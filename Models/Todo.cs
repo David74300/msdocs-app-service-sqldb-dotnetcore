@@ -8,6 +8,7 @@ namespace DotNetCoreSqlDb.Models
         public int ID { get; set; }
         public string? Description { get; set; }
        
+        public string? Nombre { get; set; }
 
         [DisplayName("Created Date")]
         [DataType(DataType.Date)]
